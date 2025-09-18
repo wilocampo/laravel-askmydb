@@ -6,6 +6,8 @@ Background and attribution
 - This is a Laravel/PHP reimplementation inspired by the original Python project: [Ask-My-DB (Python)](https://github.com/Msalways/Ask-My-DB).
 - Not a fork; built from scratch for Laravel 12 with provider-agnostic LLMs and a simple demo UI.
 
+![Laravel-AskMyDB Demo Image](demo.png)
+
 ## Features
 - Natural language to SQL: Ask questions like "top 10 best sellers this month".
 - Provider-agnostic: OpenAI/OpenRouter (OpenAI-compatible) and Ollama supported.
