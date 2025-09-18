@@ -1,0 +1,27 @@
+{
+    "name": "askmydb/laravel-askmydb",
+    "description": "Query your database using natural language via LLMs (Laravel package).",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "AskMyDB\\Laravel\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0",
+        "illuminate/database": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AskMyDB\\Laravel\\AskMyDBServiceProvider"
+            ],
+            "aliases": {
+                "AskMyDB": "AskMyDB\\Laravel\\Facades\\AskMyDB"
+            }
+        }
+    }
+}
