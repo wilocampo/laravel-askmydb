@@ -1,6 +1,6 @@
 ### Laravel Ask-My-DB
 
-Query your database using natural language via LLMs. This package turns plain-English prompts into safe SQL SELECT statements and returns the results.
+Query your database using natural language via LLMs. This package turns plain-English prompts into safe SQL SELECT statements and returns the results. If you need the fully working demo, get it here https://github.com/wilocampo/laravel-askmydb-full
 
 Background and attribution
 - This is a Laravel/PHP reimplementation inspired by the original Python project: [Ask-My-DB (Python)](https://github.com/Msalways/Ask-My-DB).
